@@ -48,54 +48,21 @@ Each task includes:
 - MongoDB (with Mongoose)
 
 ---
- ##📂 Folder Structure
 
-###Task-Manager/
-├── backend/
-│   ├── models/
-│   │   └── Task.js
-│   ├── routes/
-│   │   └── taskRoutes.js
-│   ├── server.js
-│   └── package.json
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
-
----
-
-##⚙️ Setup Instructions
-###clone_repository:
-    - git clone https://github.com/pratikKenjale/Task-Management-Web-Application
-    - cd Task-Manager
-###backend:
-    - cd backend
-    - npm install
-    - npm run dev
-###frontend:
-    - Open frontend/index.html in browser
-    - Or use Live Server
-
----
-
-##🔄 API Endpoints
+🔄 API Endpoints
 - GET /tasks – Get all tasks
 - POST /tasks – Create task
 - PUT /tasks/:id – Update task
 - DELETE /tasks/:id – Delete task
 
-##✨ Features
+✨ Features
 - Responsive UI
 - Full CRUD functionality
 - RESTful API
 - Persistent database storage
 - Clean, modular code
 
-##📝 Notes
+📝 Notes
 - Focused on full-stack fundamentals
 - Bonus features can be added later
 - Built for internship skill assessment
