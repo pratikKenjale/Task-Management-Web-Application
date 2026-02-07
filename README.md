@@ -51,31 +51,33 @@ Each task includes:
 
 ## 📂 Folder Structure
 
-  Task-Manager:
-    backend:
-      models:
-        - Task.js
-      routes:
-        - taskRoutes.js
-      files:
-        - server.js
-        - package.json
-    frontend:
-      - index.html
-      - style.css
-      - script.js
+Task-Manager/
+├── backend/
+│   ├── models/
+│   │   └── Task.js
+│   ├── routes/
+│   │   └── taskRoutes.js
+│   ├── server.js
+│   └── package.json
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── README.md
 
 ---
 
 ##⚙️ Setup Instructions
-clone_repository:
+###clone_repository:
     - git clone https://github.com/pratikKenjale/Task-Management-Web-Application
     - cd Task-Manager
-  backend:
+  ###backend:
     - cd backend
     - npm install
     - npm run dev
-  frontend:
+  ###frontend:
     - Open frontend/index.html in browser
     - Or use Live Server
 
