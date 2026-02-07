@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Task Manager</h1>
+
+  <form id="taskForm">
+    <input type="hidden" id="taskId" />
+
+    <input
+      type="text"
+      id="title"
+      placeholder="Task title"
+      required
+    />
+
+    <textarea
+      id="description"
+      placeholder="Task description"
+      rows="3"
+    ></textarea>
+
+    <select id="status">
+      <option value="Pending">Pending</option>
+      <option value="In Progress">In Progress</option>
+      <option value="Completed">Completed</option>
+    </select>
+
+    <button type="submit">
+      Save Task
+    </button>
+  </form>
+
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>

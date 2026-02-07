@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  max-width: 720px;
+  margin: auto;
+  padding: 30px 16px;
+  color: #1f2937;
+}
+
+/* INTERACTIVE TITLE */
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 26px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.25s ease;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
+  border-radius: 2px;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.03);
+}
+
+h1:hover::after {
+  width: 120px;
+}
+
+/* FORM */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+  transition: border 0.3s;
+}
+
+form.editing {
+  border: 2px solid #4f46e5;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* TASK LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+.task-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.task-desc {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+/* STATUS BADGES */
+.badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.pending {
+  background: #fff7ed;
+  color: #9a3412;
+}
+
+.in-progress {
+  background: #eef2ff;
+  color: #3730a3;
+}
+
+.completed {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+/* ACTION BUTTONS */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #4f46e5;
+  color: white;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #4338ca;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
