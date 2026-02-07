@@ -66,6 +66,8 @@ Task-Manager/
 │ ├── style.css
 │ └── script.js
 
+---
+
 ##⚙️ Setup Instructions
 git clone https://github.com/pratikKenjale/Task-Management-Web-Application
 cd Task-Manager
@@ -77,6 +79,8 @@ npm run dev
 
 ###Frontend
 Open frontend/index.html in browser
+
+---
 
 ##🔄 API Endpoints
 GET /tasks – Get all tasks
@@ -95,6 +99,8 @@ Clean, modular code
 Focused on full-stack fundamentals
 Bonus features can be added later
 Built for internship skill assessment
+
+---
 
 ## 👤 Author
 Pratik Kenjale
