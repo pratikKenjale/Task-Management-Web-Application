@@ -48,8 +48,7 @@ Each task includes:
 - MongoDB (with Mongoose)
 
 ---
-
-## 📂 Folder Structure
+ 📂 Folder Structure
 
 Task-Manager/
 ├── backend/
@@ -69,7 +68,7 @@ Task-Manager/
 
 ---
 
-##⚙️ Setup Instructions
+⚙️ Setup Instructions
 ###clone_repository:
     - git clone https://github.com/pratikKenjale/Task-Management-Web-Application
     - cd Task-Manager
