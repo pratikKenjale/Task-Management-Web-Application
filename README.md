@@ -51,54 +51,53 @@ Each task includes:
 
 ## 📂 Folder Structure
 
-Task-Manager/
-│
-├── backend/
-│ ├── models/
-│ │ └── Task.js
-│ ├── routes/
-│ │ └── taskRoutes.js
-│ ├── server.js
-│ ├── package.json
-│
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+  Task-Manager:
+    backend:
+      models:
+        - Task.js
+      routes:
+        - taskRoutes.js
+      files:
+        - server.js
+        - package.json
+    frontend:
+      - index.html
+      - style.css
+      - script.js
 
 ---
 
 ##⚙️ Setup Instructions
-git clone https://github.com/pratikKenjale/Task-Management-Web-Application
-cd Task-Manager
-
-###Backend
-cd backend
-npm install
-npm run dev
-
-###Frontend
-Open frontend/index.html in browser
+clone_repository:
+    - git clone https://github.com/pratikKenjale/Task-Management-Web-Application
+    - cd Task-Manager
+  backend:
+    - cd backend
+    - npm install
+    - npm run dev
+  frontend:
+    - Open frontend/index.html in browser
+    - Or use Live Server
 
 ---
 
 ##🔄 API Endpoints
-GET /tasks – Get all tasks
-POST /tasks – Create task
-PUT /tasks/:id – Update task
-DELETE /tasks/:id – Delete task
+- GET /tasks – Get all tasks
+- POST /tasks – Create task
+- PUT /tasks/:id – Update task
+- DELETE /tasks/:id – Delete task
 
 ##✨ Features
-Responsive UI
-Full CRUD functionality
-RESTful API
-Persistent database storage
-Clean, modular code
+- Responsive UI
+- Full CRUD functionality
+- RESTful API
+- Persistent database storage
+- Clean, modular code
 
 ##📝 Notes
-Focused on full-stack fundamentals
-Bonus features can be added later
-Built for internship skill assessment
+- Focused on full-stack fundamentals
+- Bonus features can be added later
+- Built for internship skill assessment
 
 ---
 
