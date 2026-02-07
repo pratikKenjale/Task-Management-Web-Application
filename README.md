@@ -48,9 +48,9 @@ Each task includes:
 - MongoDB (with Mongoose)
 
 ---
- 📂 Folder Structure
+ ##📂 Folder Structure
 
-Task-Manager/
+###Task-Manager/
 ├── backend/
 │   ├── models/
 │   │   └── Task.js
@@ -68,15 +68,15 @@ Task-Manager/
 
 ---
 
-⚙️ Setup Instructions
+##⚙️ Setup Instructions
 ###clone_repository:
     - git clone https://github.com/pratikKenjale/Task-Management-Web-Application
     - cd Task-Manager
-  ###backend:
+###backend:
     - cd backend
     - npm install
     - npm run dev
-  ###frontend:
+###frontend:
     - Open frontend/index.html in browser
     - Or use Live Server
 
